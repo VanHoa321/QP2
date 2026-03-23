@@ -1,0 +1,38 @@
+/* Tùy chỉnh nút đáp án */
+.option-btn {
+    text-align: left; /* Căn trái nội dung đáp án */
+    white-space: normal; /* Cho phép rớt dòng nếu đáp án quá dài */
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #dee2e6;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* Hiệu ứng khi di chuột vào (hover) */
+.option-btn:hover:not(.disabled) {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Vô hiệu hóa nút sau khi đã chọn */
+.disabled {
+    pointer-events: none;
+}
+
+/* Lớp CSS khi trả lời ĐÚNG (Bôi xanh) */
+.correct {
+    background-color: #198754 !important; /* Màu xanh của Bootstrap */
+    color: white !important;
+    border-color: #198754 !important;
+}
+
+/* Lớp CSS khi trả lời SAI (Bôi đỏ) */
+.incorrect {
+    background-color: #dc3545 !important; /* Màu đỏ của Bootstrap */
+    color: white !important;
+    border-color: #dc3545 !important;
+}
