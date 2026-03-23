@@ -4,10 +4,10 @@ const quizData =
     "id": 1,
     "question": "Quá trình tiến hành chiến lược \"DBHB\", BLLĐ kẻ thù thường thực hiện ở đâu?",
     "options": [
-      "A, Trung tâm văn hoá, chính trị",
-      "B, Nơi trung tâm kinh tế",
-      "C, Nơi trung tâm văn hoá",
-      "D, Nơi yếu kém về mọi mặt"
+      "A. Trung tâm văn hoá, chính trị",
+      "B. Nơi trung tâm kinh tế",
+      "C. Nơi trung tâm văn hoá",
+      "D. Nơi yếu kém về mọi mặt"
     ],
     "correctAnswer": "D"
   },
@@ -15,10 +15,10 @@ const quizData =
     "id": 2,
     "question": "Chiến lược \"DBHB\" và bạo loạn lật đổ giống nhau cơ bản về những điểm gì?",
     "options": [
-      "A, Mục tiêu, thủ đoạn",
-      "B, Bản chất, mục tiêu, chủ thể tiến hành",
-      "C, Mục tiêu, chủ thể, biện pháp thực hiện",
-      "D, Mục tiêu, chủ thể, thủ đoạn tiến hành"
+      "A. Mục tiêu, thủ đoạn",
+      "B. Bản chất, mục tiêu, chủ thể tiến hành",
+      "C. Mục tiêu, chủ thể, biện pháp thực hiện",
+      "D. Mục tiêu, chủ thể, thủ đoạn tiến hành"
     ],
     "correctAnswer": "B"
   },
@@ -26,10 +26,10 @@ const quizData =
     "id": 3,
     "question": "Hoạt động bạo loạn lật đổ chính thức có bản chất là gì?",
     "options": [
-      "A, Can thiệp",
-      "B, Có tính tổ chức",
-      "C, Gây mất ổn định",
-      "D, Trừng trị"
+      "A. Can thiệp",
+      "B. Có tính tổ chức",
+      "C. Gây mất ổn định",
+      "D. Trừng trị"
     ],
     "correctAnswer": "B"
   },
@@ -37,10 +37,10 @@ const quizData =
     "id": 4,
     "question": "Phương châm chủ yếu trong phòng chống chiến lược \"DBHB\", BLLĐ là gì?",
     "options": [
-      "A, Phát hiện sớm các hành vi phá hoại",
-      "B, Chủ động, kiên quyết phòng chống",
-      "C, Phân hoá các đối tượng chống đối",
-      "D, Phân hoá, bất ngờ các đối tượng"
+      "A. Phát hiện sớm các hành vi phá hoại",
+      "B. Chủ động, kiên quyết phòng chống",
+      "C. Phân hoá, cô lập các lực lượng chống đối",
+      "D. Phân hoá, bất ngờ các đối tượng"
     ],
     "correctAnswer": "B"
   },
@@ -48,10 +48,10 @@ const quizData =
     "id": 5,
     "question": "Theo quan điểm của Đảng ta \"DBHB\" như thế nào?",
     "options": [
-      "A, Làm cho \"DBHB\" phát triển nhanh hơn",
-      "B, Làm cho \"DBHB\" kém hiệu quả",
-      "C, Làm cho \"DBHB\" không thể phát triển",
-      "D, Làm cho BLLĐ phát triển nhanh hơn"
+      "A. Làm cho \"DBHB\" phát triển nhanh hơn",
+      "B. Làm cho \"DBHB\" kém hiệu quả",
+      "C. Làm cho \"DBHB\" không thể phát triển",
+      "D. Làm cho BLLĐ phát triển nhanh hơn"
     ],
     "correctAnswer": "C"
   },
@@ -59,10 +59,10 @@ const quizData =
     "id": 6,
     "question": "Mục đích chống phá trên lĩnh vực tư tưởng, văn hoá của chiến lược \"DBHB\" là gì?",
     "options": [
-      "A, Truyền bá tư tưởng tư sản",
-      "B, Phá hoại bản sắc văn hoá dân tộc",
-      "C, Bôi nhọ văn hoá cách mạng",
-      "D, Các phương án đều đúng"
+      "A. Truyền bá tư tưởng tư sản",
+      "B. Phá hoại bản sắc văn hoá dân tộc",
+      "C. Bôi nhọ văn hoá cách mạng",
+      "D. Các phương án đều đúng"
     ],
     "correctAnswer": "D"
   },
@@ -70,10 +70,10 @@ const quizData =
     "id": 7,
     "question": "Những mục tiêu quan điểm phương châm nhiệm vụ phòng chống chiến lược \"DBHB\" là gì?",
     "options": [
-      "A, Nâng cao nhận thức cách mạng",
-      "B, Phát triển kinh tế văn hoá xã hội",
-      "C, Nâng cao trách nhiệm đấu tranh",
-      "D, Tất cả các phương án đều đúng"
+      "A. Nâng cao nhận thức cách mạng",
+      "B. Phát triển kinh tế văn hoá xã hội",
+      "C. Nâng cao trách nhiệm đấu tranh",
+      "D. Tất cả các phương án đều đúng"
     ],
     "correctAnswer": "B"
   },
@@ -81,10 +81,10 @@ const quizData =
     "id": 8,
     "question": "CNĐQ và các thế lực phản động thường mua chuộc, lôi kéo đối tượng nào hoạt động trong chiến lược \"DBHB\"?",
     "options": [
-      "A, Quần chúng lao động",
-      "B, Quần chúng tiêu cực",
-      "C, Các tầng lớp nhân dân",
-      "D, Quần chúng trung lập"
+      "A. Quần chúng lao động",
+      "B. Quần chúng tiêu cực",
+      "C. Các tầng lớp nhân dân",
+      "D. Quần chúng trung lập"
     ],
     "correctAnswer": "B"
   },
@@ -2581,7 +2581,7 @@ let currentQuestionIndex = 0;
 let userAnswers = []; // Mảng lưu trữ đáp án người dùng đã chọn
 
 // Tạo đối tượng âm thanh
-const correctSound = new Audio('audio.mp3'); 
+//const correctSound = new Audio('audio.mp3'); 
 
 // Lấy các phần tử DOM
 const questionText = document.getElementById('question-text');
@@ -2675,8 +2675,8 @@ function selectOption(selectedButton, correctAnswer, selectedLetter) {
     if (selectedLetter === correctAnswer) {
         selectedButton.classList.add('correct');
         // Phát âm thanh khi đúng
-        correctSound.currentTime = 0; 
-        correctSound.play().catch(error => console.log("Lỗi phát âm thanh:", error)); 
+        //correctSound.currentTime = 0; 
+        //correctSound.play().catch(error => console.log("Lỗi phát âm thanh:", error)); 
     } else {
         selectedButton.classList.add('incorrect');
         // Bôi xanh đáp án đúng
