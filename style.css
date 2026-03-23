@@ -37,7 +37,7 @@
 @media (max-width: 767.98px) {
     /* 1. Thu nhỏ nội dung câu hỏi */
     #question-text {
-        font-size: 1.15rem; /* Chữ nhỏ lại so với mặc định của thẻ h4 */
+        font-size: 1rem; /* Chữ nhỏ lại so với mặc định của thẻ h4 */
         margin-bottom: 1rem !important;
     }
 
@@ -49,7 +49,7 @@
 
     /* 3. Thu nhỏ phần Header (tiêu đề và thẻ báo số câu) */
     .card-header h5 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     #question-progress {
         font-size: 0.85rem !important; /* Ghi đè class fs-6 của Bootstrap */
