@@ -7,7 +7,7 @@ const quizData =
       "A. Nơi trung tâm kinh tế",
       "B. Nơi trung tâm văn hoá",
       "C. Nơi yếu kém về mọi mặt",
-      "D. Trung tâm văn hoá. chính trị"
+      "D. Trung tâm văn hoá. Chính trị"
     ],
     "correctAnswer": "C"
   },
@@ -1053,7 +1053,7 @@ const quizData =
       "C. Chủ động đập tan âm mưu chống phá của các tổ chức phản động",
       "D. Tất cả các phương án"
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "C"
   },
   {
     "id": 97,
@@ -1097,7 +1097,7 @@ const quizData =
       "C. Có truyền thống đoàn kết gắn bó xây dựng quốc gia dân tộc thống nhất",
       "D. Tất cả các phương án"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "D"
   },
   {
     "id": 101,
@@ -1108,7 +1108,7 @@ const quizData =
       "C. Thực hiện bình đẳng. đoàn kết. tôn trọng giúp đỡ nhau cùng tiến bộ",
       "D. Tất cả các phương án"
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "D"
   },
   {
     "id": 102,
@@ -1141,7 +1141,7 @@ const quizData =
       "C. Dân tộc ở nước ta có quy mô dân số. trình độ phát triển không đồng đều",
       "D. Tất cả các phương án"
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "D"
   },
   {
     "id": 105,
@@ -1158,7 +1158,7 @@ const quizData =
     "id": 106,
     "question": "Thủ đoạn nào là thủ đoạn lợi dụng vấn đề dân tộc tôn giáo chống phá cách mạng Việt Nam của địch?",
     "options": [
-      "A. Làm suy yếu khối đại đoàn kết dân tộc",
+      "A. Tất cả các phương án",
       "B. Xuyên tạc chủ nghĩa Mác-Lênin. tư tưởng Hồ Chí Minh",
       "C. Tập trung phá hoại cơ sở KT. XH",
       "D. Xây dựng. nuôi dưỡng tổ chức phản động"

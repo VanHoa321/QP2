@@ -61,10 +61,17 @@
     }
     
     /* 5. Thu nhỏ ô nhập số để tìm câu */
+    #jump-input, #jump-btn, #shuffle-btn {
+        height: 38px !important; /* Đảm bảo tất cả cao bằng nhau */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     #jump-input {
         width: 70px !important;
-        height: 33px;
         font-size: 0.9rem;
+        padding: 0 8px; /* Giảm padding ngang của input */
     }
 
     /* 6. Trải dài các nút điều hướng ra cho dễ bấm trên điện thoại */
