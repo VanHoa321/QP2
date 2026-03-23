@@ -89,6 +89,11 @@ body {
     .gap-3 {
         gap: 0.8rem !important;
     }
+
+    .copyright {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
 }
 
 /* Tùy chỉnh thêm cho màn hình cực nhỏ (như iPhone SE) */
