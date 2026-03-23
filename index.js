@@ -2653,7 +2653,7 @@ function loadQuestion() {
     // Xử lý nút "Câu tiếp theo"
     if (savedAnswer) {
         // Nếu đã trả lời rồi thì cho phép đi tiếp
-        nextBtn.innerText = currentQuestionIndex === quizData.length - 1 ? "Xem điểm số" : "Câu tiếp theo";
+        nextBtn.innerText = currentQuestionIndex === quizData.length - 1 ? "Xem điểm số" : "Tiếp theo";
         nextBtn.classList.remove('d-none');
     } else {
         // Nếu chưa trả lời thì ẩn nút Next đi
@@ -2688,7 +2688,7 @@ function selectOption(selectedButton, correctAnswer, selectedLetter) {
     }
 
     // Hiện nút đi tiếp
-    nextBtn.innerText = currentQuestionIndex === quizData.length - 1 ? "Xem điểm số" : "Câu tiếp theo";
+    nextBtn.innerText = currentQuestionIndex === quizData.length - 1 ? "Xem điểm số" : "Tiếp theo";
     nextBtn.classList.remove('d-none');
 }
 
