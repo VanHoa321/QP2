@@ -1,7 +1,7 @@
-/* Tùy chỉnh nút đáp án */
+
 .option-btn {
-    text-align: left; /* Căn trái nội dung đáp án */
-    white-space: normal; /* Cho phép rớt dòng nếu đáp án quá dài */
+    text-align: left;
+    white-space: normal; 
     padding: 12px 20px;
     font-size: 1.1rem;
     border: 2px solid #dee2e6;
@@ -12,27 +12,74 @@
     cursor: pointer;
 }
 
-/* Hiệu ứng khi di chuột vào (hover) */
 .option-btn:hover:not(.disabled) {
     background-color: #e9ecef;
     border-color: #adb5bd;
 }
 
-/* Vô hiệu hóa nút sau khi đã chọn */
 .disabled {
     pointer-events: none;
 }
 
-/* Lớp CSS khi trả lời ĐÚNG (Bôi xanh) */
 .correct {
-    background-color: #198754 !important; /* Màu xanh của Bootstrap */
+    background-color: #198754 !important; 
     color: white !important;
     border-color: #198754 !important;
 }
 
-/* Lớp CSS khi trả lời SAI (Bôi đỏ) */
 .incorrect {
-    background-color: #dc3545 !important; /* Màu đỏ của Bootstrap */
+    background-color: #dc3545 !important; 
     color: white !important;
     border-color: #dc3545 !important;
+}
+
+/* --- TÙY CHỈNH CHO GIAO DIỆN MOBILE (Màn hình nhỏ hơn 768px) --- */
+@media (max-width: 767.98px) {
+    /* 1. Thu nhỏ nội dung câu hỏi */
+    #question-text {
+        font-size: 1.15rem; /* Chữ nhỏ lại so với mặc định của thẻ h4 */
+        margin-bottom: 1rem !important;
+    }
+
+    /* 2. Thu nhỏ font chữ và khoảng cách (padding) của các nút đáp án */
+    .option-btn {
+        font-size: 0.95rem; /* Chữ đáp án nhỏ lại */
+        padding: 10px 12px; /* Các lề trong nút hẹp lại */
+    }
+
+    /* 3. Thu nhỏ phần Header (tiêu đề và thẻ báo số câu) */
+    .card-header h5 {
+        font-size: 1.1rem;
+    }
+    #question-progress {
+        font-size: 0.85rem !important; /* Ghi đè class fs-6 của Bootstrap */
+    }
+
+    /* 4. Thu nhỏ các nút bấm điều hướng (Câu trước, Câu tiếp theo, Tìm) */
+    #prev-btn, #next-btn, #jump-btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+    
+    /* 5. Thu nhỏ ô nhập số để tìm câu */
+    #jump-input {
+        width: 70px !important;
+        height: 33px;
+        font-size: 0.9rem;
+    }
+
+    /* 6. Trải dài các nút điều hướng ra cho dễ bấm trên điện thoại */
+    .gap-3 {
+        gap: 0.8rem !important;
+    }
+}
+
+/* Tùy chỉnh thêm cho màn hình cực nhỏ (như iPhone SE) */
+@media (max-width: 400px) {
+    .option-btn {
+        font-size: 0.9rem;
+    }
+    #question-text {
+        font-size: 1.05rem;
+    }
 }

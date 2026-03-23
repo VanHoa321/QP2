@@ -2580,7 +2580,7 @@ const quizData =
 let currentQuestionIndex = 0;
 let userAnswers = []; // Mảng lưu trữ đáp án người dùng đã chọn
 
-// Tạo đối tượng âm thanh (Đảm bảo bạn đã có file correct.mp3 trong cùng thư mục)
+// Tạo đối tượng âm thanh
 const correctSound = new Audio('audio.mp3'); 
 
 // Lấy các phần tử DOM
