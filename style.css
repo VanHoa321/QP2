@@ -57,7 +57,6 @@
 
     /* 4. Thu nhỏ các nút bấm điều hướng (Câu trước, Câu tiếp theo, Tìm) */
     #prev-btn, #next-btn, #jump-btn {
-        font-size: 0.9rem;
         padding: 6px 12px;
     }
     
