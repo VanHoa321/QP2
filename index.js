@@ -2581,7 +2581,7 @@ let currentQuestionIndex = 0;
 let userAnswers = []; // Mảng lưu trữ đáp án người dùng đã chọn
 
 // Tạo đối tượng âm thanh
-//const correctSound = new Audio('audio.mp3'); 
+const correctSound = new Audio('audio.mp3'); 
 
 // Lấy các phần tử DOM
 const questionText = document.getElementById('question-text');
@@ -2675,8 +2675,8 @@ function selectOption(selectedButton, correctAnswer, selectedLetter) {
     if (selectedLetter === correctAnswer) {
         selectedButton.classList.add('correct');
         // Phát âm thanh khi đúng
-        //correctSound.currentTime = 0; 
-        //correctSound.play().catch(error => console.log("Lỗi phát âm thanh:", error)); 
+        correctSound.currentTime = 0; 
+        correctSound.play().catch(error => console.log("Lỗi phát âm thanh:", error)); 
     } else {
         selectedButton.classList.add('incorrect');
         // Bôi xanh đáp án đúng
