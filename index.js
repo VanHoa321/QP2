@@ -141,7 +141,7 @@ const quizData =
       "C. Biện pháp chính trị",
       "D. Biện pháp giáo dục"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "B"
   },
   {
     "id": 14,
@@ -152,7 +152,7 @@ const quizData =
       "C. Tiêu tan nền tảng tư tưởng của lực lượng vũ trang",
       "D. Tiêu tan nền tảng tư tưởng xã hội"
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "D"
   },
   {
     "id": 15,
@@ -196,7 +196,7 @@ const quizData =
       "C. Không để bị bất ngờ. lúng túng",
       "D. Không để lan rộng. kéo dài"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "D"
   },
   {
     "id": 19,
