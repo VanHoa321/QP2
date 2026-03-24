@@ -162,7 +162,7 @@ const quizData = [
       "C. Có 2 giai đoạn",
       "D. Có 5 giai đoạn"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "A"
   },
   {
     "id": 16,
@@ -722,7 +722,7 @@ const quizData = [
       "C. Xóa bỏ sự lãnh đạo của Đảng ta",
       "D. Tập trung phá hoại các cơ sở KT, XH"
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "B"
   },
   {
     "id": 67,
@@ -1558,7 +1558,7 @@ const quizData = [
       "C. Gia tăng các tệ nạn xã hội",
       "D. Làm suy giảm sức mạnh quốc phòng của đất nước"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "D"
   },
   {
     "id": 143,
@@ -1987,7 +1987,7 @@ const quizData = [
       "C. Điều 114",
       "D. Điều 111"
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "C"
   },
   {
     "id": 182,
@@ -2075,7 +2075,7 @@ const quizData = [
       "C. 2",
       "D. 1"
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "C"
   },
   {
     "id": 190,
@@ -2119,7 +2119,7 @@ const quizData = [
       "C. Tham gia vào các hoạt động xung kích bảo vệ nhà trường và ký túc xá",
       "D. Cả 3 phương án trên"
     ],
-    "correctAnswer": "D"
+    "correctAnswer": "A"
   },
   {
     "id": 194,
@@ -2204,7 +2204,7 @@ const quizData = [
     "options": [
       "A. Pháp luật quy định những yếu tố mà con người phải thực hiện khi khai thác và sử dụng các yếu tố (thành phần)",
       "B. Pháp luật quy định những nguyên tắc mà con người phải thực hiện khi khai thác và sử dụng các yếu tố (thành phần) của môi trường",
-      "C. Pháp luật quy định những quy luật mà con người phải thực hiện khi khai thác và sử dụng các yếu tố (thành phần) của môi trường",
+      "C. Pháp luật quy định những quy tắc xử sự mà con người phải thực hiện khi khai thác và sử dụng các yếu tố (thành phần) của môi trường",
       "D. Pháp luật quy định các hình thức xử phạt"
     ],
     "correctAnswer": "C"
@@ -2317,7 +2317,7 @@ const quizData = [
       "C. Tại điều 238, 242, 243, 244, 245",
       "D. Tại điều 235, 236, 237"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "B"
   },
   {
     "id": 212,
@@ -2431,17 +2431,6 @@ const quizData = [
   },
   {
     "id": 222,
-    "question": "Biện pháp phòng, chống (các biện pháp phòng ngừa chung) vi phạm pháp luật về bảo vệ môi trường?",
-    "options": [
-      "A. Biện pháp quân sự",
-      "B. Biện pháp phi quân sự",
-      "C. Biện pháp khoa học - công nghệ",
-      "D. Biện pháp tâm lý"
-    ],
-    "correctAnswer": "C"
-  },
-  {
-    "id": 223,
     "question": "Biện pháp phòng, chống (các biện pháp phòng ngừa chung) vi phạm pháp luật về bảo vệ môi trường?",
     "options": [
       "A. Biện pháp pháp luật",
