@@ -777,7 +777,7 @@ const quizData = [
       "C. Chủ động đập tan âm mưu chống phá của các tổ chức phản động",
       "D. Tất cả các phương án"
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "A"
   },
   {
     "id": 72,
