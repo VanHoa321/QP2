@@ -1389,7 +1389,7 @@ const quizData = [
     "question": "Theo Điều 8 Luật An ninh mạng (2018), các hành vi bị nghiêm cấm là?",
     "options": [
       "A. Xuyên tạc lịch sử, phủ nhận thành tựu cách mạng, phá hoại khối đại đoàn kết toàn dân tộc, xúc phạm tôn giáo, phân biệt đối xử về giới, phân biệt chủng tộc",
-      "B. Xuyên tạc lịch sử, phủ nhận thành tựu cách mạng, phá hoại khối đại đoàn kết toàn dân tộc, xúc phạm tôn giáo, phân biệt đối xử về giới, phân biệt chủng tộc",
+      "B. Xuyên tạc lịch sử, phủ nhận các thành tựu của sự nghiệp đổi mới đất nước",
       "C. Xuyên tạc lịch sử, phá hoại khối đại đoàn kết toàn dân tộc, xúc phạm tôn giáo, phân biệt đối xử về giới, phân biệt chủng tộc",
       "D. Phủ nhận thành tựu cách mạng, phá hoại khối đại đoàn kết toàn dân tộc, xúc phạm tôn giáo, phân biệt đối xử về giới, phân biệt chủng tộc"
     ],
